@@ -1,1 +1,8 @@
-/* você pode estilizar se quiser !!! */
+body{
+    background-color: #335c67;
+    color: #fff3b0;
+    text-align: center;
+}
+div{
+    margin-bottom: 50px;
+}
