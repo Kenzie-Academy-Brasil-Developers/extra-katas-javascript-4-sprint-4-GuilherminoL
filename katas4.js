@@ -198,7 +198,7 @@ bonus1()
 
 function bonus2(){
     printText('Bonus2','h1')
-    let lastIndex = bestThing.length -1
+    let lastIndex = bestThing.split(' ').length -1
     printText(`o último index é ${lastIndex}`,'div')
     return lastIndex
 }
@@ -287,11 +287,7 @@ bonus9()
 
 function bonus10(){
     printText('Bonus10','h1')
-    let output = []
-    lotrCitiesArray.map(element => {
-        output.unshift(element)
-    })
-    lotrCitiesArray = output
+    lotrCitiesArray.reverse()
     printText(lotrCitiesArray,'div')
     return lotrCitiesArray
 }
